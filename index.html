@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Web App</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav container">
+            <div class="header__logo">
+                <a href="index.html" class="header__logo-link">
+                    <i class="fas fa-leaf"></i> EcoBrand
+                </a>
+            </div>
+            <button class="header__toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars header__toggle-icon"></i>
+            </button>
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="index.html" class="header__nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li class="header__nav-item"><a href="sustainability.html" class="header__nav-link"><i class="fas fa-leaf"></i> Sustainability</a></li>
+                <li class="header__nav-item"><a href="products.html" class="header__nav-link"><i class="fas fa-box-open"></i> Products</a></li>
+                <li class="header__nav-item"><a href="testimonials.html" class="header__nav-link"><i class="fas fa-comment-dots"></i> Testimonials</a></li>
+                <li class="header__nav-item"><a href="contact.html" class="header__nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <h1 class="hero__title">Discover Sustainable Living</h1>
+            <p class="hero__subtitle">Eco-friendly products for a better tomorrow.</p>
+            <a href="products.html" class="cta-btn">Shop Now</a>
+        </section>
+
+        <section class="features">
+            <h2 class="features__title">Why Choose Us</h2>
+            <div class="features__content">
+                <div class="feature">
+                    <img src="images/feature1.png" alt="High Quality" class="feature__image">
+                    <h3 class="feature__title">High Quality</h3>
+                    <p class="feature__description">Our products are made with the highest quality materials.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/feature2.png" alt="Sustainable" class="feature__image">
+                    <h3 class="feature__title">Sustainable</h3>
+                    <p class="feature__description">We are committed to sustainable and eco-friendly practices.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/feature3.png" alt="Affordable" class="feature__image">
+                    <h3 class="feature__title">Affordable</h3>
+                    <p class="feature__description">Our products are affordable and provide great value.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2 class="newsletter__title">Stay Updated</h2>
+            <p class="newsletter__subtitle">Subscribe to our newsletter for the latest updates and offers.</p>
+            <form class="newsletter__form">
+                <input type="email" class="newsletter__input" placeholder="Enter your email" required>
+                <button type="submit" class="newsletter__button">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__section">
+                <h4>About Us</h4>
+                <ul class="footer__list">
+                    <li><a href="#" class="footer__link">Our Story</a></li>
+                    <li><a href="#" class="footer__link">Mission</a></li>
+                    <li><a href="#" class="footer__link">Vision</a></li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h4>Products</h4>
+                <ul class="footer__list">
+                    <li><a href="products.html" class="footer__link">Eco-Friendly Items</a></li>
+                    <li><a href="#" class="footer__link">New Arrivals</a></li>
+                    <li><a href="#" class="footer__link">Best Sellers</a></li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h4>Contact</h4>
+                <ul class="footer__list">
+                    <li><a href="contact.html" class="footer__link">Email Us</a></li>
+                    <li><a href="#" class="footer__link">Office Location</a></li>
+                    <li><a href="#" class="footer__link">Customer Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2024 EcoBrand. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

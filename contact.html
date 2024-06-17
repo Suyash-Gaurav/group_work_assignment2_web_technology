@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - EcoBrand</title>
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav container">
+            <div class="header__logo">
+                <a href="index.html" class="header__logo-link">
+                    <i class="fas fa-leaf"></i> EcoBrand
+                </a>
+            </div>
+            <button class="header__toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars header__toggle-icon"></i>
+            </button>
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="index.html" class="header__nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li class="header__nav-item"><a href="sustainability.html" class="header__nav-link"><i class="fas fa-leaf"></i> Sustainability</a></li>
+                <li class="header__nav-item"><a href="products.html" class="header__nav-link"><i class="fas fa-box-open"></i> Products</a></li>
+                <li class="header__nav-item"><a href="testimonials.html" class="header__nav-link"><i class="fas fa-comment-dots"></i> Testimonials</a></li>
+                <li class="header__nav-item"><a href="contact.html" class="header__nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us through the following channels:</p>
+            <ul class="contact__list">
+                <li>Email: <a href="mailto:suyashdas.das@gmail.com" class="contact__link">suyashdas.das@gmail.com</a></li>
+                <li>Office Location: 123 Eco Street, Green City</li>
+                <li>Customer Support: <a href="tel:+1234567890" class="contact__link">+123 456 7890</a></li>
+            </ul>
+        </section>
+
+        <section id="contact-form" class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="mailto:suyashdas.das@gmail.com" method="post" enctype="text/plain" class="contact-form__form">
+                <div class="contact-form__field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="contact-form__field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="contact-form__field">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="contact-form__button">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__section">
+                <h2 class="footer__title">About Us</h2>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#" class="footer__link">Our Story</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Mission</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Vision</a></li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Products</h2>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="products.html" class="footer__link">Eco-Friendly Items</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">New Arrivals</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Best Sellers</a></li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Contact</h2>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="contact.html" class="footer__link">Email Us</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Office Location</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Customer Support</a></li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Follow Us</h2>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2024 EcoBrand. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
